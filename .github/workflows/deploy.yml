@@ -11,7 +11,7 @@ jobs:
       contents: write
     defaults:
       run:
-        working-directory: comic
+        working-directory: comic_2
     strategy:
       matrix:
         node-version: [12.x]
@@ -30,4 +30,4 @@ jobs:
       with:
 #         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./comic/build
+        publish_dir: ./comic_2/build
