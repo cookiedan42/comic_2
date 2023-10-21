@@ -1,2 +1,2 @@
-# self care tip generator  
-tips sourced from blog posts at https://www.beautyafterbruises.org
+# comic for assignment 2
+about reading vs movies
