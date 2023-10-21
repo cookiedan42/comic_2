@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/comic/static/css/main.7e00ee57.css",
+    "main.js": "/comic/static/js/main.8ff3342a.js",
+    "index.html": "/comic/index.html",
+    "main.7e00ee57.css.map": "/comic/static/css/main.7e00ee57.css.map",
+    "main.8ff3342a.js.map": "/comic/static/js/main.8ff3342a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e00ee57.css",
+    "static/js/main.8ff3342a.js"
+  ]
+}
