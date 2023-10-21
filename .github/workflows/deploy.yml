@@ -11,7 +11,7 @@ jobs:
       contents: write
     defaults:
       run:
-        working-directory: help_gen
+        working-directory: comic
     strategy:
       matrix:
         node-version: [12.x]
