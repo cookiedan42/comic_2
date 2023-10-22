@@ -6,10 +6,13 @@ export default function Intro() {
                 How (and why) does McNeil represent experiencing a book and movie in different ways
             </h3>
             <p>
-                On pages 520 and 521, immersion in a book's story is depicted as Marcie exploring the world of the book. The vivd images she imagines while listening to the story contains elements from her life such as her mother and sisters.
+                On pages 520 and 521, immersion in a book's story is depicted as Marcie exploring the world of the book. The vivd images she imagines while listening to the story integrate elements from her life such as her mother and sisters.
             </p>
             <p>
                 Meanwhile, on pages 553 and 554, the experience of watching a movie is shown to be a chaotic experience where the viewer has little agency. The panel borders are curved and text follows these borders in an unpredictable order, leading to a messy reading order.
+            </p>
+            <p>
+                Through this comparison, she presents books as a slower, deeper, self-paced experience, and movies as a frentic, fleeting experience.
             </p>
 
             <h3>
