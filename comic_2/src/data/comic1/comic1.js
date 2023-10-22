@@ -10,7 +10,7 @@ import P09 from "./P9.png";
 import P10 from "./P10.png";
 import text from "../words"
 
-export default [
+const comic1 = [
     { image: P01, text: text[0] },
     { image: P02, text: text[1] },
     { image: P03, text: text[2] },
@@ -21,4 +21,5 @@ export default [
     { image: P08, text: text[7] },
     { image: P09, text: text[8] },
     { image: P10, text: text[9] },
-]   
+];
+export default comic1;

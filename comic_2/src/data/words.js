@@ -1,4 +1,4 @@
-export default [
+const words = [
     "Little Red Riding Hood left her home, heading for Grandma's house",
     "She had to walk through the forest to get there",
     "Along the way, she met a wolf who suggested she should go pick some flowers for her sick grandma",
@@ -9,4 +9,5 @@ export default [
     "All the better to eat you, my dear!",
     "And the wolf disguised as grandma lunged at little red riding hood!",
     "The End",
-]
+];
+export default words;
