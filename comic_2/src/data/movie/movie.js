@@ -11,15 +11,15 @@ import P10 from "./P10.png";
 import words from "../words"
 
 const movie = [
-    { image: P01, timeout: 2000, text: words[0] },
-    { image: P02, timeout: 2000, text: words[1] },
-    { image: P03, timeout: 2000, text: words[2] },
-    { image: P04, timeout: 2000, text: words[3] },
-    { image: P05, timeout: 2000, text: words[4] },
-    { image: P06, timeout: 2000, text: words[5] },
-    { image: P07, timeout: 2000, text: words[6] },
-    { image: P08, timeout: 2000, text: words[7] },
-    { image: P09, timeout: 2000, text: words[8] },
-    { image: P10, timeout: 2000, text: words[9] },
+    { image: P01, timeout: 1500, text: words[0] },
+    { image: P02, timeout: 1500, text: words[1] },
+    { image: P03, timeout: 1500, text: words[2] },
+    { image: P04, timeout: 1500, text: words[3] },
+    { image: P05, timeout: 1500, text: words[4] },
+    { image: P06, timeout: 1500, text: words[5] },
+    { image: P07, timeout: 1500, text: words[6] },
+    { image: P08, timeout: 1500, text: words[7] },
+    { image: P09, timeout: 1500, text: words[8] },
+    { image: P10, timeout: 1500, text: words[9] },
 ];
 export default movie;

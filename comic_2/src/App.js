@@ -11,22 +11,30 @@ function App() {
 
   function getContent() {
     let l = <div></div>;
+    let bottomData = <div></div>;
 
     switch (state) {
       case 0:
         l = <Intro/>;
         break;
       case 1:
-        l = <TextPanel data={text} key="text" />
+        bottomData = <p>Reading just the text of the story, what images are conjured in your mind's eye to fill the blank space? </p>
+        l = <TextPanel data={text} bottomData={bottomData} key="text" />
         break;
       case 2:
-        l = <TextPanel data={comic1} key="comic1" />
+        bottomData = <p>Reader 1 is encountering the story for the first time</p>
+        l = <TextPanel data={comic1} bottomData={bottomData} key="comic1" />
         break;
       case 3:
-        l = <TextPanel data={comic2} key="comic2" />
+        bottomData = <p>Reader 2 has read the story before and anticipates the ending</p>
+        l = <TextPanel data={comic2} bottomData={bottomData} key="comic2" />
         break;
       case 4:
-        l = <MoviePanel data={movie} key="movie"/>
+        bottomData = <p>
+          The director has a specific idea of how the images are to be presented to all viewers<br/>
+          The imagery and pacing is the same for all viewers, no matter who they are.
+        </p>
+        l = <MoviePanel data={movie} bottomData={bottomData} key="movie"/>
         break;
       default:
         l = <p></p>;
@@ -38,18 +46,14 @@ return <>
     </>;
   }
 
-
   return (
-
-
     <div className="App">
-
       <div>
-        <button onClick={() => setState(0)}>intro</button>
-        <button onClick={() => setState(1)}>text only</button>
-        <button onClick={() => setState(2)}>reader 1</button>
-        <button onClick={() => setState(3)}>reader 2</button>
-        <button onClick={() => setState(4)}>movie</button>
+        <button style={{ height: "50px", width: "15%", minWidth: "100px" }} onClick={() => setState(0)}>1: Introduction</button>
+        <button style={{ height: "50px", width: "15%", minWidth: "100px" }} onClick={() => setState(1)}>2: Text only</button>
+        <button style={{ height: "50px", width: "15%", minWidth: "100px" }} onClick={() => setState(2)}>3: Reader 1</button>
+        <button style={{ height: "50px", width: "15%", minWidth: "100px" }} onClick={() => setState(3)}>4: Reader 2</button>
+        <button style={{ height: "50px", width: "15%", minWidth: "100px" }} onClick={() => setState(4)}>5: Movie</button>
       </div>
       {getContent()}
     </div>

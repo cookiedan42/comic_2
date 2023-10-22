@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 
-export default function MoviePanel({data}) {
+export default function MoviePanel({data,bottomData}) {
 
     const [state, setState] = useState(0);
-    const [tb, setTB] = useState(true);
     const size = data.length-1;
 
     useEffect(
         () => {
             setTimeout(
-                () => {setTB(Math.random()>0.5);setState(Math.min(state + 1, size))},
+                () => {setState(Math.min(state + 1, size))},
                 data[state].timeout
             )
         },
@@ -19,7 +18,7 @@ export default function MoviePanel({data}) {
 
 
     const top = ()=>{
-        if (state===0 || tb){
+        if (state%2===0 || state%3===0 ){
             return (<div>{data[state].text}</div>);
         }
         else {
@@ -27,7 +26,7 @@ export default function MoviePanel({data}) {
         }
     }
     const bot = ()=>{
-        if (state===0 || tb){
+        if (state%2===0 || state%3===0){
             return (<div style={{color:'white'}}>_</div>);
         } else{
             return (<div>{data[state].text}</div>);
@@ -38,6 +37,7 @@ export default function MoviePanel({data}) {
             {top()}
             <img src={data[state].image} alt="" />
             {bot()}
+            {state===size?bottomData:<></>}
         </div >
     )
 
