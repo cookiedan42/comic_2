@@ -34,10 +34,10 @@ export default function MoviePanel({data,bottomData}) {
     }
     return (
         < div class="areaDiv" style={{ flexDirection: "row" }} >
+            {state===size?bottomData:<></>}
             {top()}
             <img src={data[state].image} alt="" />
             {bot()}
-            {state===size?bottomData:<></>}
         </div >
     )
 

@@ -18,22 +18,22 @@ function App() {
         l = <Intro/>;
         break;
       case 1:
-        bottomData = <p>Reading just the text of the story, what images are conjured in your mind's eye to fill the blank space? </p>
+        bottomData = <h3>Reading just the text of the story, what images are conjured in your mind's eye to fill the blank space? </h3>
         l = <TextPanel data={text} bottomData={bottomData} key="text" />
         break;
       case 2:
-        bottomData = <p>Reader 1 is encountering the story for the first time</p>
+        bottomData = <h3>Reader 1 is encountering the story for the first time</h3>
         l = <TextPanel data={comic1} bottomData={bottomData} key="comic1" />
         break;
       case 3:
-        bottomData = <p>Reader 2 has read the story before and anticipates the ending</p>
+        bottomData = <h3>Reader 2 has read the story before and anticipates the ending</h3>
         l = <TextPanel data={comic2} bottomData={bottomData} key="comic2" />
         break;
       case 4:
-        bottomData = <p>
+        bottomData = <h3>
           The director has a specific idea of how the images are to be presented to all viewers<br/>
           The imagery and pacing is the same for all viewers, no matter who they are.
-        </p>
+        </h3>
         l = <MoviePanel data={movie} bottomData={bottomData} key="movie"/>
         break;
       default:
