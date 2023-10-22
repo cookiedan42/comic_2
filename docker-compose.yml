@@ -2,9 +2,9 @@ version: '3.9'
 
 services:
   frontend:
-    container_name: "comic"
+    container_name: "comic_2"
     build: 
-      context: ./comic
+      context: ./comic_2
     ports:
       - "3000:3000"
     environment:
