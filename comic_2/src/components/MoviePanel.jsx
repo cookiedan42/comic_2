@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 
-export default function MoviePanel({ data: data }) {
+export default function MoviePanel({data}) {
 
     const [state, setState] = useState(0);
     const size = data.length-1;
@@ -13,13 +13,12 @@ export default function MoviePanel({ data: data }) {
                 data[state].timeout
             )
         },
-        [state]
+        [state,data,size]
     )
     return (
         < div class="areaDiv" style={{ flexDirection: "row" }} >
             <div>{data[state].text}</div>
-
-            <img src={data[state].image} />
+            <img src={data[state].image} alt="" />
         </div >
     )
 
