@@ -18,6 +18,7 @@ export default [
     { image: P05, text: text[4] }, 
     { image: P06, text: text[5] }, 
     { image: P07, text: text[6] }, 
+    { image: P08, text: text[7] }, 
     { image: P09, text: text[8] },
     { image: P10, text: text[9] }, 
 ]   
