@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/comic_2/static/css/main.7e00ee57.css",
-    "main.js": "/comic_2/static/js/main.8ff3342a.js",
+    "main.js": "/comic_2/static/js/main.d35d6808.js",
+    "static/media/P2.png": "/comic_2/static/media/P2.4b29fd5a239c7885d14d.png",
+    "static/media/P7.png": "/comic_2/static/media/P7.46e93a4ae974605bb5dd.png",
+    "static/media/P8.png": "/comic_2/static/media/P8.cf8aa6e8eba9dea2709f.png",
+    "static/media/P5.png": "/comic_2/static/media/P5.ed7f3c1cb0887829b4e0.png",
+    "static/media/P6.png": "/comic_2/static/media/P6.22574d6f332da9806af2.png",
+    "static/media/P4.png": "/comic_2/static/media/P4.4a8e3fa4624958e2f743.png",
+    "static/media/P3.png": "/comic_2/static/media/P3.067e8470d768e3122659.png",
+    "static/media/P9.png": "/comic_2/static/media/P9.89201b6f80ff4a8803ed.png",
+    "static/media/P1.png": "/comic_2/static/media/P1.4a1ba710ed899c9d96b1.png",
     "index.html": "/comic_2/index.html",
     "main.7e00ee57.css.map": "/comic_2/static/css/main.7e00ee57.css.map",
-    "main.8ff3342a.js.map": "/comic_2/static/js/main.8ff3342a.js.map"
+    "main.d35d6808.js.map": "/comic_2/static/js/main.d35d6808.js.map"
   },
   "entrypoints": [
     "static/css/main.7e00ee57.css",
-    "static/js/main.8ff3342a.js"
+    "static/js/main.d35d6808.js"
   ]
 }
